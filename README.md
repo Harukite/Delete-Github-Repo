@@ -1,45 +1,41 @@
-# GitHub Repository Manager
+# GitHub 存储库管理器
 
-This script allows you to manage your GitHub repositories by fetching all your repositories and selectively deleting them.
+此脚本允许你通过获取所有的 GitHub 存储库并选择性地删除它们来管理你的 GitHub 存储库。
 
-## Prerequisites
+## 先决条件
 
-- Python 3.6 or higher
-- pip (Python package installer)
+- Python 3.6 或更高版本
+- pip（Python 包安装程序）
 
-## Setup
+## 设置
 
-1. Clone this repository or download the files.
+1. 克隆此存储库或下载文件。
 
-2. Install the required packages:
+2. 安装所需的软件包：
 
    ```
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the same directory as the script with the following content:
+3. 在与脚本相同的目录中创建一个`.env`文件，内容如下：
 
    ```
-   GITHUB_TOKEN=your_github_token_here
-   GITHUB_USERNAME=your_github_username_here
+   GITHUB_TOKEN=你的 GitHub 令牌在这里
+   GITHUB_USERNAME=你的 GitHub 用户名在这里
    ```
 
-   Replace `your_github_token_here` with your GitHub personal access token and `your_github_username_here` with your GitHub username.
+   将“你的 GitHub 令牌在这里”替换为你的 GitHub 个人访问令牌，将“你的 GitHub 用户名在这里”替换为你的 GitHub 用户名。
 
-## Usage
+## 使用方法
 
-Run the script with the following command:
+使用以下命令运行脚本：
 
 ```
 python main.py
 ```
 
-Follow the prompts to select and delete repositories.
+按照提示选择并删除存储库。
 
-## Warning
+## 警告
 
-Deleting repositories is irreversible. Use this script with caution.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+删除存储库是不可逆转的。请谨慎使用此脚本。
