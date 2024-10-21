@@ -20,11 +20,11 @@
 3. 在与脚本相同的目录中创建一个`.env`文件，内容如下：
 
    ```
-   GITHUB_TOKEN=你的 GitHub 令牌在这里
-   GITHUB_USERNAME=你的 GitHub 用户名在这里
+   GITHUB_TOKEN=your_github_token_here
+   GITHUB_USERNAME=your_github_username_here
    ```
 
-   将“你的 GitHub 令牌在这里”替换为你的 GitHub 个人访问令牌，将“你的 GitHub 用户名在这里”替换为你的 GitHub 用户名。
+   将“your_github_token_here”替换为你的 GitHub 个人访问令牌，将“your_github_username_here”替换为你的 GitHub 用户名。
 
 ## 使用方法
 
